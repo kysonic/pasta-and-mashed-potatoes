@@ -1,0 +1,62 @@
+.UserForm {
+    width: 560px;
+    max-width: calc(100vw - 300px);
+    height: 650px;
+    padding: 20px;
+    color: #694d53;
+    margin-left: 20px;
+}
+
+.UserForm .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.UserForm fieldset {
+    border: none;
+    padding: 0;
+}
+.UserForm label {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.UserForm .error {
+    color: #961432;
+}
+
+.UserForm input {
+    margin-top: 5px;
+    width: calc(100% - 20px);
+    height: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0 10px;
+    outline: none;
+}
+.UserForm input:focus {
+    border: 2px solid #0a3c64;
+}
+
+.UserForm input[type="submit"] {
+    display: inline-block;
+    width: 160px;
+    margin-top: 20px;
+    background: #961432;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+    height: 50px;
+}
+.UserForm input[type="submit"]:hover {
+    background: #88122f;
+}
+
+.UserForm input[type="submit"][disabled] {
+    opacity: 0.3;
+}

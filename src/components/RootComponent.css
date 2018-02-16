@@ -1,0 +1,3 @@
+.RootComponent > .content {
+    display: flex;
+}

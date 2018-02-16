@@ -1,0 +1,13 @@
+.HeaderBasket {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.HeaderBasket a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.HeaderBasket a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id":1,
+    "title": "Caesar Sauce",
+    "price": 1.22
+  },
+  {
+    "id":2,
+    "title": "Ketchup",
+    "price": 1
+  },
+  {
+    "id":3,
+    "title": "Cheese sauce",
+    "price": 0.99
+  }
+]

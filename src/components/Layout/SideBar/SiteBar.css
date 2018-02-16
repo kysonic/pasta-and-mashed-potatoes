@@ -1,0 +1,41 @@
+.SiteBar {
+    flex-basis: 300px;
+    height: calc(100vh - 120px);
+    background: #e2e2e2;
+    padding: 0 20px;
+    margin: 0;
+    color: #966b79;
+    list-style: none;
+    position: relative;
+}
+
+.SiteBar li {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.SiteBar li a {
+    text-decoration: none;
+    color: #9f7283;
+    font-size: 18px;
+}
+
+.SiteBar li a:hover {
+    text-decoration: none;
+    color: #950000;
+}
+
+.SiteBar li.category-title {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.SiteBar .loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: url('../../../assets/spinner.gif') no-repeat center;
+    background-size: 30%;
+}

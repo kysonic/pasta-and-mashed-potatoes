@@ -1,0 +1,13 @@
+.ArticlePage {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ArticlePage .BreadCrumbs {
+    margin-top: 20px;
+    margin-left: 20px;
+}

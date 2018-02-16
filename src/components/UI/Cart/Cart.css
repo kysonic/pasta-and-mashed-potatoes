@@ -1,0 +1,41 @@
+.Cart {
+    padding: 10px;
+    color: #8c7271;
+}
+.empty-msg {
+    text-align: center;
+}
+.items {
+    list-style: none;
+    margin: 0;
+}
+.items .item{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cart .remove, .Cart .continue {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    background: #954d7b;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.Cart .continue {
+    margin: 20px 0 0 40px;
+}
+
+.Cart .remove:hover, .Cart .continue:hover {
+    background: #80366a;
+}
+
+.Cart .total{
+    margin-top: 15px;
+    color: #745e5d;
+}

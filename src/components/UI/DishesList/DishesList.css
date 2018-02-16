@@ -1,0 +1,15 @@
+.DishesList {
+    padding: 20px;
+    position: relative;
+    height: calc(100vh - 160px);
+}
+
+.DishesList .loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: url('../../../assets/spinner.gif') no-repeat center;
+    background-size: 20%;
+}

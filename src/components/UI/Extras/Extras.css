@@ -1,0 +1,17 @@
+.Extras {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    color: #8c7271;
+}
+
+.Extras .extras-title {
+    font-weight: 700;
+}
+
+.Extras .buy {
+    cursor: pointer;
+}
+.Extras .buy:hover {
+    text-decoration: underline;
+}

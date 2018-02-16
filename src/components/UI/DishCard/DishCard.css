@@ -1,0 +1,72 @@
+.DishCard {
+    display: flex;
+    padding: 20px;
+    position: relative;
+    height: calc(100vh - 160px);
+}
+
+.DishCard .loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: url('../../../assets/spinner.gif') no-repeat center, rgba(256,256,256,0.9);
+    background-size: 20%;
+}
+
+.DishCard .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #694d53;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.DishCard .right {
+    margin-left: 20px;
+}
+
+.DishCard .title {
+    font-size: 26px;
+    font-weight: 900;
+    color: #694d53;
+}
+
+.DishCard .subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #63504f;
+}
+
+.DishCard .desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #917776;
+    margin-top: 5px;
+}
+
+.DishCard .price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #950000;
+    margin-top: 20px;
+}
+
+.DishCard .button {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    background: #950000;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.DishCard .button:hover {
+    background: #880000;
+}
